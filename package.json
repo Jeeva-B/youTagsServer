@@ -1,0 +1,22 @@
+{
+  "name": "youtags",
+  "version": "1.0.0",
+  "description": "Youtube tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "keywords": [
+    "youtube",
+    "tags"
+  ],
+  "author": "jee6",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
