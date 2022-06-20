@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const tags = require('./tags/YoutubeTags');
+const tags = require('./src/tags/YoutubeTags');
 
 const PORT = process.env.PORT || 1056;
 
